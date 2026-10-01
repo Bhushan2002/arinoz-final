@@ -262,7 +262,7 @@ $expertiseItems = [
     ],
 ];
 
-include 'our-expertise.php'; ?>
+include 'components/our-expertise.php'; ?>
 
 
 <!-- =========================================================

@@ -114,7 +114,7 @@ include 'header.php';
                      UI/UX DESIGN SERVICES
                 ================================================== -->
 
-                <div class="service_features">
+                <!-- <div class="service_features">
 
                     <h3>
                         Our UI/UX Design Services
@@ -164,7 +164,7 @@ include 'header.php';
 
                     </ul>
 
-                </div>
+                </div> -->
 
 
                 <!-- =================================================
@@ -233,7 +233,17 @@ include 'header.php';
      OUR EXPERTISE
 ========================================================= -->
 
-<?php include 'our_expertise.php'; ?>
+<?php 
+$expertiseHeading = 'UI/UX Design & Research Services';
+$expertiseDescription = 'We create user-centered designs that combine clear structure, appealing visuals and smooth interaction to help businesses deliver experiences their users enjoy.';
+$expertiseItems = [
+    ['icon' => 'fa-solid fa-magnifying-glass-chart', 'title' => 'User Research', 'description' => 'Understanding your users, their goals and pain points to base every design decision on real insight.'],
+    ['icon' => 'fa-solid fa-object-group', 'title' => 'Wireframing & Prototyping', 'description' => 'Structured layouts and clickable prototypes that let you test flows and ideas before development begins.'],
+    ['icon' => 'fa-solid fa-palette', 'title' => 'Visual & UI Design', 'description' => 'Polished, on-brand interfaces with consistent typography, color and components across every screen.'],
+    ['icon' => 'fa-solid fa-mobile-screen-button', 'title' => 'Web & Mobile App Design', 'description' => 'Responsive, touch-friendly designs for websites, web applications and mobile apps on every screen size.'],
+    ['icon' => 'fa-solid fa-clipboard-check', 'title' => 'Usability Testing', 'description' => 'Testing and design audits that find friction points and improve ease of use, accessibility and conversion.'],
+];
+include 'components/our-expertise.php'; ?>
 
 
 <!-- =========================================================

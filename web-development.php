@@ -224,7 +224,7 @@ $expertiseItems = [
     ['icon' => 'flaticon-business-054-graph', 'title' => 'Website Maintenance', 'description' => 'Ongoing updates, performance optimization, security improvements and technical support for your website.'],
 ];
 
-include 'our-expertise.php'; ?>
+include 'components/our-expertise.php'; ?>
 
 
 <!-- =========================================================
