@@ -1,0 +1,103 @@
+/* Company Features - Icon Above Content */
+.features-section-nine .feature-block-nine .inner-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.features-section-nine .feature-block-nine .icon {
+    flex-shrink: 0;
+    margin: 0 0 15px 0;
+    background-color: rgb(201 201 202 / 10%);
+
+}
+
+.features-section-nine .feature-block-nine .title {
+    text-align: center;
+}
+
+.features-section-nine .feature-block-nine .text {
+    text-align: center;
+}
+
+
+.testimonial-section{
+  --testi-navy:#0f2c59;
+  --testi-orange:#f5a623;
+  --testi-text:#5b6b82;
+  padding:60px 0;
+  background:linear-gradient(90deg,#eaf1fb 0%,#f6f9fe 50%,#eaf1fb 100%);
+}
+.testimonial-section .testi-wrap{
+  display:grid;
+  grid-template-columns:300px minmax(0,1fr);
+  gap:40px;
+  align-items:center;
+  max-width:1280px;
+  margin:0 auto;
+  padding:0 20px;
+}
+
+/* intro */
+.testi-eyebrow{display:block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--testi-navy);font-weight:600;margin-bottom:8px}
+.testi-intro h2{font-size:28px;line-height:1.2;color:var(--testi-navy);font-weight:700;margin:0 0 12px}
+.testi-intro p{font-size:14px;line-height:1.6;color:var(--testi-text);margin:0 0 22px}
+.testi-btn{
+  display:inline-flex;align-items:center;gap:10px;
+  background:var(--testi-navy);color:#fff;
+  padding:12px 22px;border-radius:6px;font-size:14px;font-weight:600;
+  text-decoration:none;transition:background .25s;
+}
+.testi-btn:hover{background:var(--testi-orange);color:#fff}
+
+/* slider */
+.testi-slider{position:relative;padding:0 44px 28px}
+.testi-viewport{overflow:hidden;padding:6px 0}
+.testi-track{display:flex;gap:20px;transition:transform .45s ease}
+.testi-card{
+  flex:0 0 calc((100% - 40px) / 3);
+  background:#fff;border-radius:10px;
+  padding:22px 22px 20px;
+  box-shadow:0 4px 18px rgba(15,44,89,.08);
+  display:flex;flex-direction:column;
+}
+.testi-quote{font-size:16px;color:var(--testi-navy);margin-bottom:10px}
+.testi-card > p{font-size:14px;line-height:1.6;color:var(--testi-text);margin:0 0 12px;flex:1}
+.testi-stars{color:var(--testi-orange);font-size:12px;letter-spacing:2px;margin-bottom:14px}
+.testi-author{display:flex;align-items:center;gap:12px}
+.testi-author img{width:44px;height:44px;border-radius:50%;object-fit:cover;background:#dfe7f3}
+.testi-author h4{font-size:14px;font-weight:700;color:var(--testi-navy);margin:0}
+.testi-author span{font-size:12px;color:var(--testi-text)}
+
+/* arrows */
+.testi-arrow{
+  position:absolute;top:calc(50% - 14px);transform:translateY(-50%);
+  width:36px;height:36px;border:0;background:transparent;
+  color:var(--testi-navy);font-size:26px;cursor:pointer;line-height:1;
+}
+.testi-arrow.prev{left:0}
+.testi-arrow.next{right:0}
+.testi-arrow:hover{color:var(--testi-orange)}
+.testi-arrow:disabled{opacity:.3;cursor:default}
+
+/* dots */
+.testi-dots{position:absolute;left:0;right:0;bottom:0;display:flex;justify-content:center;gap:8px}
+.testi-dots button{width:7px;height:7px;border-radius:50%;border:0;padding:0;background:#b9c6da;cursor:pointer}
+.testi-dots button.active{background:var(--testi-navy)}
+
+/* focus */
+.testi-arrow:focus-visible,.testi-dots button:focus-visible,.testi-btn:focus-visible{outline:2px solid var(--testi-orange);outline-offset:2px}
+
+/* responsive */
+@media (max-width:1100px){
+  .testi-card{flex-basis:calc((100% - 20px) / 2)}
+}
+@media (max-width:900px){
+  .testimonial-section .testi-wrap{grid-template-columns:1fr;gap:28px}
+}
+@media (max-width:600px){
+  .testi-card{flex-basis:100%}
+  .testi-slider{padding:0 32px 28px}
+}
+@media (prefers-reduced-motion:reduce){.testi-track{transition:none}}

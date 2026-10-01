@@ -1,0 +1,500 @@
+/* =========================================================
+   OUR SERVICES PAGE
+   Page-specific CSS for: our-services.php
+
+   Load this file AFTER css/style.css.
+
+   This file contains only styles used by:
+   - Page banner
+   - Services listing
+   - Counters / statistics
+   - About services
+   - Technology stack
+   - Clients section spacing
+   - Testimonials
+   - Contact section
+   ========================================================= */
+
+
+/* =========================================================
+   PAGE BANNER
+   ========================================================= */
+
+.page-title {
+    position: relative;
+    padding: 100px 0;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.page-title .auto-container,
+.page-title .title-outer {
+    position: relative;
+    z-index: 2;
+}
+
+.page-title .title {
+    position: relative;
+    z-index: 2;
+
+    max-width: 900px;
+    margin: 0;
+}
+
+.page-title .btn-box {
+    position: relative;
+    z-index: 2;
+
+    margin-top: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.page-title .btn-box .theme-btn {
+    margin: 0;
+}
+
+.page-title .btn-style-one {
+    display: inline-block;
+    position: relative;
+
+    padding: 15px 40px;
+
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 700;
+
+    letter-spacing: 0.1em;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.page-title .btn-style-ten {
+    margin-left: 0;
+}
+
+
+/* =========================================================
+   COMMON SECTION SPACING
+   ========================================================= */
+
+section.services-section-three,
+section.about-section-ten,
+section.featured-products,
+section.brands-section,
+section.testimonial-section-five,
+section.contact-section-three {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* =========================================================
+   SECTION HEADINGS
+   ========================================================= */
+
+section .sec-title .sub-title {
+    margin-bottom: 10px;
+}
+
+
+/* =========================================================
+   SERVICES LIST
+   ========================================================= */
+
+section.services-section-three .outer-box {
+    margin: 0;
+}
+
+section.services-section-three .row {
+    margin-left: -15px;
+    margin-right: -15px;
+    row-gap: 30px;
+}
+
+section.services-section-three .service-block-three {
+    margin-bottom: 0;
+    display: flex;
+}
+
+section.services-section-three .service-block-three .inner-box {
+    width: 100%;
+    height: 100%;
+}
+
+section.services-section-three .btn-box2 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+/* =========================================================
+   TECHNOLOGY / FEATURED PRODUCTS
+   ========================================================= */
+
+section.featured-products {
+    background: var(--theme-color3);
+}
+
+section.featured-products .filter-list {
+    margin-left: -15px;
+    margin-right: -15px;
+    row-gap: 30px;
+}
+
+section.featured-products .product-block {
+    margin-bottom: 0;
+    display: flex;
+}
+
+section.featured-products .product-block .inner-box {
+    width: 100%;
+    height: 100%;
+
+    min-height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.featured-products .product-block .image {
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.featured-products .product-block .image img {
+    max-width: 130px;
+    max-height: 100px;
+
+    width: auto;
+    height: auto;
+
+    padding: 15px;
+    object-fit: contain;
+}
+
+
+/* =========================================================
+   CLIENTS SECTION
+   clients.php is included by our-services.php
+   ========================================================= */
+
+section.brands-section {
+    overflow: hidden;
+}
+
+section.brands-section .sec-title {
+    margin-bottom: 35px;
+}
+
+section.brands-section .brands-slider {
+    margin-top: 0;
+}
+
+section.brands-section .brands-track {
+    min-height: 100px;
+}
+
+section.brands-section .brand-item {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* =========================================================
+   COUNTERS / STATISTICS
+   ========================================================= */
+
+section.fun-fact-section-three .fact-counter {
+    margin: 0;
+}
+
+section.fun-fact-section-three .fact-counter .row {
+    align-items: stretch;
+}
+
+section.fun-fact-section-three .counter-block-four {
+    display: flex;
+}
+
+section.fun-fact-section-three .counter-block-four .inner {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* =========================================================
+   CONTACT SECTION
+   ========================================================= */
+
+section.contact-section-three .row {
+    align-items: center;
+}
+
+section.contact-section-three .content-column,
+section.contact-section-three .form-column {
+    margin-bottom: 0;
+}
+
+section.contact-section-three .inner-column {
+    padding: 0;
+}
+
+section.contact-section-three .sec-title {
+    margin-bottom: 30px;
+}
+
+section.contact-section-three .call-info-box-outer {
+    margin-top: 30px;
+}
+
+section.contact-section-three .contact-form-two {
+    margin: 0;
+}
+
+section.contact-section-three .title-box {
+    margin-bottom: 25px;
+}
+
+section.contact-section-three .form-group {
+    margin-bottom: 20px;
+}
+
+
+/* Contact submit button - page-specific */
+.btn-style-submitt {
+    background-color: var(--theme-color1);
+}
+
+
+/* =========================================================
+   TESTIMONIAL CARDS
+   Keeps testimonial text boxes equal in height.
+   ========================================================= */
+
+.testimonial-block-five .content-box {
+    height: 340px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0 40px 35px;
+    box-sizing: border-box;
+}
+
+.testimonial-block-five .content-box .rating {
+    flex-shrink: 0;
+    margin-bottom: 12px;
+}
+
+.testimonial-block-five .content-box .text {
+    flex-grow: 1;
+    width: 100%;
+
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+
+    padding-right: 6px;
+    margin: 0;
+
+    line-height: 26px;
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--theme-color2) transparent;
+}
+
+.testimonial-block-five .content-box .text::-webkit-scrollbar {
+    width: 4px;
+}
+
+.testimonial-block-five .content-box .text::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+}
+
+.testimonial-block-five .content-box .text::-webkit-scrollbar-thumb {
+    background: var(--theme-color2);
+    border-radius: 4px;
+}
+
+.testimonial-block-five .inner-box:hover .content-box .text::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+
+/* =========================================================
+   RESPONSIVE - TABLET
+   768px - 991px
+   ========================================================= */
+
+@media (max-width: 991px) {
+
+    section.services-section-three,
+    section.about-section-ten,
+    section.featured-products,
+    section.brands-section,
+    section.fun-fact-section-three,
+    section.testimonial-section-five,
+    section.contact-section-three {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    section.about-section-ten .content-column {
+        margin-bottom: 40px;
+    }
+
+    section.about-section-ten .image-column {
+        margin-bottom: 0;
+    }
+
+    section.contact-section-three .content-column {
+        margin-bottom: 40px;
+    }
+
+    section.contact-section-three .form-column {
+        margin-bottom: 0;
+    }
+
+    .page-title {
+        padding: 90px 0;
+        background-position: center center;
+    }
+
+    .page-title .title {
+        max-width: 750px;
+    }
+
+    .page-title .btn-style-one {
+        padding: 14px 30px;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE - MOBILE TABLET
+   576px - 767px
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+    section.services-section-three,
+    section.about-section-ten,
+    section.featured-products,
+    section.brands-section,
+    section.fun-fact-section-three,
+    section.testimonial-section-five,
+    section.contact-section-three {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    section .sec-title {
+        margin-bottom: 35px;
+    }
+
+    section .sec-title h2 {
+        font-size: var(--h3-font-size);
+        line-height: 1.3;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE - SMALL MOBILE
+   0px - 575px
+   ========================================================= */
+
+@media (max-width: 575px) {
+
+    section.services-section-three,
+    section.about-section-ten,
+    section.featured-products,
+    section.brands-section,
+    section.fun-fact-section-three,
+    section.testimonial-section-five,
+    section.contact-section-three {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    section .sec-title {
+        margin-bottom: 30px;
+    }
+
+    section .sec-title h2 {
+        font-size: var(--h3-font-size);
+        line-height: 1.3;
+    }
+
+    .page-title {
+        padding: 75px 0;
+        text-align: center;
+        background-position: center center;
+    }
+
+    .page-title .title {
+        max-width: 100%;
+    }
+
+    .page-title .btn-box {
+        margin-top: 25px;
+        justify-content: center;
+    }
+
+    .page-title .btn-style-one {
+        display: block;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+
+        padding: 13px 15px;
+        text-align: center;
+    }
+
+    .page-title .btn-style-ten {
+        margin: 15px auto 0;
+    }
+
+    .testimonial-block-five .content-box {
+        height: 250px;
+        padding: 0 25px 30px;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE - EXTRA SMALL MOBILE
+   0px - 480px
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+    .page-title {
+        padding: 60px 0;
+        background-position: center center;
+    }
+
+    .page-title .btn-style-one {
+        max-width: 100%;
+        padding: 12px 10px;
+
+        font-size: 11px;
+        letter-spacing: 0.05em;
+    }
+}
