@@ -1046,6 +1046,14 @@
 
 </section>
 
+<a class="web-contact-float"
+    href="our-services.php#contact-form"
+    aria-label="Contact us"
+    title="Contact us"> 
+
+    <i class="fa fa-phone" aria-hidden="true"></i> 
+
+</a>
     <!-- =====================Footer============== -->
 
     <?php include "footer.php"; ?>

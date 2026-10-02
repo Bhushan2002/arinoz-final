@@ -358,7 +358,7 @@ iframe {
 
 section > .container,
 section > .container-fluid {
-  padding-top: var(--container-pt);
+  /* padding-top: var(--container-pt); */
   padding-bottom: var(--container-pt);
 }
 
@@ -5663,7 +5663,7 @@ Section Title
   top: 114px;
   width: 451px;
   height: 381px;
-  background-image: url(../images/icons/pattern-25.png);
+  /* background-image: url(../images/icons/pattern-25.png); */
   content: "";
 }
 @media (max-width: 991.98px) {
@@ -12472,7 +12472,7 @@ Section Title
     width: 936px;
     height: 496px;
     content: "";
-background-image: url(../images/icons/dotted-map-4.png);
+/* background-image: url(../images/icons/dotted-map-4.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19106,7 +19106,7 @@ Sidebar
 }
 
 .team-details__top {
-  padding: 0 0 120px;
+  padding: 0 0 70px;
 }
 
 .team-details-shape-1 {

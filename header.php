@@ -159,7 +159,7 @@
 
                                 <!-- About -->
                                 <li>
-                                    <a href="#">
+                                    <a href="page-about.php">
                                         About Us
                                     </a>
                                 </li>
@@ -227,7 +227,7 @@
                                             <ul>
 
                                                 <li>
-                                                    <a href="erp_development.php">
+                                                    <a href="erp-development.php">
                                                         ERP Solutions
                                                     </a>
                                                 </li>
