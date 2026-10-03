@@ -223,7 +223,6 @@ $expertiseItems = [
     ['icon' => 'flaticon-business-045-stationery', 'title' => 'Custom Web Applications', 'description' => 'Powerful and scalable web applications developed to streamline business processes and meet specific business requirements.'],
     ['icon' => 'flaticon-business-054-graph', 'title' => 'Website Maintenance', 'description' => 'Ongoing updates, performance optimization, security improvements and technical support for your website.'],
 ];
-
 include 'components/our-expertise.php'; ?>
 
 

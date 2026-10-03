@@ -3070,6 +3070,7 @@ section.contact-section-three .form-group {
 }
 
 .sec-title-small {
+    margin-top: 70px;
     margin-bottom: 24px;
 }
 
@@ -3244,34 +3245,26 @@ section.contact-section-three .form-group {
     gap: 8px;
 }
 
-/* Why Choose Us Grid */
-section.choose-section {
-    padding: 50px 0;
-    background: var(--theme-color3, #f4f5f8);
-}
-
-.choose-section .sec-title {
-    text-align: left;
-    margin-bottom: 35px;
+/* Why Choose Us Grid (service pages: 2-column cards) */
+.why_choose_sec {
+    margin-top: 60px;
 }
 
 .choose_grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 22px;
 }
 
 .choose_card {
-    display: flex;
-    flex-direction: column;
-    aspect-ratio: 1 / 1;
     background: #ffffff;
     border: 1px solid rgba(10, 42, 94, 0.08);
     border-top: 5px solid var(--theme-color2, #f7941d);
     border-radius: 6px;
-    padding: 22px;
+    padding: 18px 20px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
     transition: all 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+    height: 100%;
 }
 
 .choose_card:hover {
@@ -3281,16 +3274,9 @@ section.choose-section {
 
 .choose_card_header {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 14px;
-}
-
-.choose_card_header h4 {
-    order: 3;
-    flex: 0 0 100%;
-    margin: 14px 0 0;
+    margin-bottom: 16px;
 }
 
 .choose_icon_box {
@@ -3320,25 +3306,73 @@ section.choose-section {
 
 .choose_card h4 {
     font-family: var(--title-font, 'Outfit', sans-serif);
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
     color: var(--theme-color1, #0a2a5e);
+    margin-bottom: 8px;
 }
 
 .choose_card p {
-    font-size: 14px;
+    font-size: 13.5px;
     color: var(--text-color, #6A6F78);
     margin: 0;
     line-height: 1.6;
     text-align: left;
 }
 
+/* Why Choose Us Grid (About page only: 4-column square cards) */
+section.choose-section {
+    padding: 50px 0;
+    background: var(--theme-color3, #f4f5f8);
+}
+
+.choose-section .why_choose_sec {
+    margin-top: 0;
+}
+
+.choose-section .sec-title {
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.choose-section .choose_grid {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.choose-section .choose_card {
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 1 / 1;
+    padding: 22px;
+    height: auto;
+}
+
+.choose-section .choose_card_header {
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+}
+
+.choose-section .choose_card_header h4 {
+    order: 3;
+    flex: 0 0 100%;
+    margin: 14px 0 0;
+}
+
+.choose-section .choose_card h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.choose-section .choose_card p {
+    font-size: 14px;
+}
+
 @media (max-width: 1199px) {
-    .choose_grid {
+    .choose-section .choose_grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .choose_card {
+    .choose-section .choose_card {
         aspect-ratio: auto;
     }
 }
@@ -3348,7 +3382,7 @@ section.choose-section {
         padding: 40px 0;
     }
 
-    .choose_grid {
+    .choose-section .choose_grid {
         grid-template-columns: 1fr;
     }
 }

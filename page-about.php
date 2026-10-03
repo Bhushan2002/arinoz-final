@@ -80,7 +80,7 @@
 					<div class="experience bounce-y">
 						<div class="inner">
 							<i class="icon flaticon-business-018-startup"></i>
-							<div class="text"><strong style="color: #f7941d;">12+</strong> Years of <br>experience</div>
+							<div class="text"><strong style="color: #f7941d;">14+</strong> Years of <br>experience</div>
 						</div>
 					</div>
 				</div>
@@ -245,7 +245,7 @@
 				<div class="inner">
 					<div class="icon"><i class="flaticon-business-010-startup"></i></div>
 					<div class="count-box">
-						<span class="count-text" data-speed="3000" data-stop="250">250</span><span class="count-suffix">+</span>
+						<span class="count-text" data-speed="2000" data-stop="250">0</span><span class="count-suffix">+</span>
 					</div>
 					<h6 class="counter-title">Project completed</h6>
 				</div>
@@ -255,7 +255,7 @@
 			<div class="counter-block-two col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
 				<div class="inner">
 					<div class="icon"><i class="flaticon-business-002-graph"></i></div>
-					<div class="count-box"><span class="count-text" data-speed="3000" data-stop="300">300</span><span class="count-suffix">+</span></div>
+					<div class="count-box"><span class="count-text" data-speed="2000" data-stop="300">0</span><span class="count-suffix">+</span></div>
 					<h6 class="counter-title">Happy Clients</h6>
 				</div>
 			</div>
@@ -264,7 +264,8 @@
 			<div class="counter-block-two col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
 				<div class="inner">
 					<div class="icon"><i class="flaticon-business-048-coin"></i></div>
-					<div class="count-box"><span class="count-text" data-speed="3000" data-stop="12">12</span><span class="count-suffix">+</span></div>
+					<div class="count-box"><span class="count-text" data-speed="2000" data-stop="14">0	
+					</span><span class="count-suffix">+</span></div>
 					<h6 class="counter-title">Years of Experience</h6>
 				</div>
 			</div>
@@ -273,7 +274,7 @@
 			<div class="counter-block-two col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="900ms">
 				<div class="inner">
 					<div class="icon"><i class="flaticon-business-006-target"></i></div>
-					<div class="count-box"><span class="count-text" data-speed="3000" data-stop="98">98</span><span class="count-suffix">%</span></div>
+					<div class="count-box"><span class="count-text" data-speed="2000" data-stop="98">0</span><span class="count-suffix">%</span></div>
 					<h6 class="counter-title">Client Satisfaction</h6>
 				</div>
 			</div>

@@ -177,7 +177,7 @@
                 <div class="counter-block-four col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="600ms">
                     <div class="inner">
                         <i class="icon flaticon-business-020-hierarchy"></i>
-                        <div class="count-box"><span class="count-text" data-speed="3000" data-stop="12">0</span></div>
+                        <div class="count-box"><span class="count-text" data-speed="3000" data-stop="14">0</span></div>
                         <span class="counter-title">Years Of Experience</span>
                     </div>
                 </div>
